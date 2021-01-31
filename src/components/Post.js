@@ -8,7 +8,7 @@ export default class Post {
 
   _goBack() {
     if (window.history.length <= 2) {
-      return '/';
+      return '../';
     } else {
       return 'javascript:history.back()';
     }
